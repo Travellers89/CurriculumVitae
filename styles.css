@@ -1,0 +1,236 @@
+html {
+    background-color: #B6CFB6; 
+}
+
+body {
+    font-family: cursive;
+    color: black; 
+}
+
+/* HEADER */
+
+header {
+    background-color: #cfc3b6;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px; 
+    height: 950px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text within the header */
+    border: 1px solid black;
+}
+
+header p{
+    writing-mode: vertical-lr; /* Display text from bottom to top with lr orientation */
+    text-orientation: mixed;
+    white-space: nowrap;
+    margin: 0;
+    transform: rotate(180deg); /* Display the text compleatly other way */
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h1{
+    writing-mode: vertical-lr; /* Display text from bottom to top with lr orientation */
+    text-orientation: mixed;
+    white-space: nowrap;
+    margin: 0; 
+    transform: rotate(180deg); /* Display the text compleatly other way */
+    font-size: 54px;
+    font-family: cursive;
+
+}
+
+img {
+    max-width: 150px; 
+    height: auto;
+    margin-top: 150px; /* Add margin to move the image down */
+    margin-left: 35px;
+}
+
+/* Personal Statment */
+
+.personal-statement{
+    margin-top: 375px;
+    margin-left: 450px;
+    margin-right: 900px;
+
+}
+
+/* Education */
+
+.education {
+    margin-left: 470px;
+    margin-top: 90px;
+}
+
+/* Professional Summary */
+
+.professional-summary {
+    background-color: #FFFFB5;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px; /* Set the desired width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow:
+        inset 0 -40px 40px rgba(0, 0, 0, 0.2),
+        inset 0 25px 10px rgba(0, 0, 0, 0.2),
+        0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.professional-summary p {
+    position: relative;
+    font-size: 16px; 
+}
+
+.professional-summary h1 {
+    font-size: 25px;
+    position: relative;
+}
+
+/*skills*/
+
+.skills{
+    margin-left: 1100px;
+    margin-top: -950px;
+}
+
+h2 {
+    color: black;
+    font-size: 32px;
+}
+
+section {
+    margin: 20px;
+}
+
+.education-item {
+    margin-top: 15px;
+}
+
+.date {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.education-title {
+    font-weight: bold;
+}
+
+.institution {
+    font-size: 80%;
+}
+
+.grade {
+    font-weight: bold;
+}
+
+dd {
+    font-size: 90%;
+}
+
+/*Half-donut SKILLS*/
+
+.halfdonut-progress {
+    width: 10rem;
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: end center;
+}
+
+.halfdonut-progress::before {
+    --fill-hue-min: 0deg;
+    --fill-hue-max: 100deg;
+    --fill-hue: calc(var(--fill-hue-min) + ((var(--fill-hue-max) - var(--fill-hue-min))) * var(--val));
+    --fill-color: hsl(var(--fill-hue) 100% 50%);
+    --track-color: hsl(0 0% 50% / .5);
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-image: conic-gradient(from 90deg, var(--fill-color) 180deg, var(--track-color) 0);
+    --mask-image: radial-gradient(100% 100%, transparent calc(30% - 1px), black 30%);
+    -webkit-mask-image: var(--mask-image);
+    mask-image: var(--mask-image);
+    transform: rotate(calc(180deg * var(--val)));
+    animation: speedometerRotateIn 2s ease;
+}
+
+@keyframes speedometerRotateIn {
+    from {
+        transform: rotate(0deg);
+    }
+}
+
+/* Contact */
+
+.contact{
+    margin-top: -620px;
+    margin-left: 470px;
+}
+
+.email-icon, .phone-icon {
+    font-size: 20px;
+    margin-right: 5px; 
+}
+
+/* Horizontal line separator */
+.separator {
+    border: 2px solid #97C1A9;
+    width: 108%; 
+    margin: 10px auto; 
+    margin-top: 80px;
+}
+
+/* Horizontal line separator */
+
+.separator2 {
+    border: 2px solid #97C1A9; 
+    width: 37%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+/* Vertical line separator */
+
+.separator-vertical {
+    border-left: 4px solid #97C1A9;
+    height: 900px;
+    margin-left: 550px;
+    margin-top: -300px;
+}
+
+/* Languages */
+
+.languages{
+    margin-left: 1100px;
+    margin-top: -300px;
+}
+
+.language2{
+    margin-top: -160px;
+    margin-left: 1400px;
+}
+
