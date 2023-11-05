@@ -15,3 +15,8 @@ In addition to the essentials, I wanted to ensure a delightful user experience. 
 
 ## Conclusion
 In conclusion, this Curriculum Vitae project aims to offer a comprehensive, visually appealing, and user-centric web-page to provide potential employers, clients, and interested individuals with an insightful glimpse into my professional world. Through careful design and a commitment to quality content, I strive to present a dynamic narrative that aligns with the expectations of my audience. Thank you for visiting!
+
+## Observations
+In comparing the initial design in Figma to the final project, a few notable aesthetic adjustments have been made. The most prominent alteration is the placement of my name and photo on the left side of the screen, providing a more engaging and personalized touch to the user experience. Additionally, the right side of the Figma layout has been slightly scaled down in the final project, enhancing the overall visual balance.
+Moreover, I've paid attention to the finer details within the project. In the "Skills" section, I've incorporated a unique touch with semi-donut graphics, making it visually appealing and informative. Furthermore, I've included skill proficiency percentages displayed as progress bars in the "Languages" section, offering a quick and intuitive understanding of my language capabilities. These thoughtful enhancements are aimed at creating a more engaging and informative presentation of my curriculum.
+
